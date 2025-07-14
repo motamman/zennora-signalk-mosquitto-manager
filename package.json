@@ -1,0 +1,27 @@
+{
+  "name": "zennora-mosquitto",
+  "version": "0.5.0-alpha.1",
+  "description": "SignalK plugin to monitor and manage Mosquitto MQTT broker including status, control, and configuration",
+  "main": "index.js",
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-webapp",
+    "marine-data",
+    "mosquitto",
+    "mqtt",
+    "broker-management",
+    "system-monitoring"
+  ],
+  "author": "Maurice Tamman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/motamman/zennora-signalk-datastore.git"
+  },
+  "signalk": {
+    "appSupport": "webapp",
+    "compatibility": ">=2.13.0",
+    "displayName": "Zennora Mosquitto Manager",
+    "appIcon": "zennora.jpg"
+  }
+}
