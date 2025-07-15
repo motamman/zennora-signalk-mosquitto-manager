@@ -3,6 +3,7 @@
   "version": "0.5.0-alpha.1",
   "description": "SignalK plugin to monitor and manage Mosquitto MQTT broker including status, control, and configuration",
   "main": "index.js",
+  "icon": "public/mosquitto.png",
   "keywords": [
     "signalk-node-server-plugin",
     "signalk-webapp",
@@ -22,6 +23,6 @@
     "appSupport": "webapp",
     "compatibility": ">=2.13.0",
     "displayName": "Zennora Mosquitto Manager",
-    "appIcon": "zennora.jpg"
+    "appIcon": "mosquitto.png"
   }
 }
